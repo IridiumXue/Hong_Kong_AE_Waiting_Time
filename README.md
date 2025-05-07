@@ -1,13 +1,21 @@
+---
+title: Hong Kong A&E Waiting Time
+emoji: 🏥
+colorFrom: red
+colorTo: pink
+sdk: docker
+pinned: false
+license: mit
+---
+
 # Hong Kong A&E Waiting Time
 
-香港急症室等候時間
+# 香港急症室等候時間
 
-Hong Kong A&E Waiting Time
+Hong Kong A&E Waiting Time，数据每15分钟更新一次。
 
-部署在 AWS Lambda 上的急症室脚本
+数据在每小时的第4、21、36、51分钟自动更新
 
-在 lambda_function.py 中填入 token 和 REPO_ID ，将 zip 上传至 AWS Lambda 即可使用
+## 数据来源
 
-datasets: https://huggingface.co/datasets/StannumX/aedemo
-
-可视化 visualization: https://huggingface.co/spaces/StannumX/AE_Time
+数据来源于 https://huggingface.co/datasets/StannumX/aedemo
