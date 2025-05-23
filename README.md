@@ -10,4 +10,4 @@ Hong Kong A&E Waiting Time
 
 datasets: https://huggingface.co/datasets/StannumX/aedemo
 
-可视化 visualization: https://huggingface.co/spaces/StannumX/AE_Time
+可视化 visualization: https://keen-robinette-iridiumxue-031f0577.koyeb.app/
